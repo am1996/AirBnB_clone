@@ -8,7 +8,7 @@ import sys
 import uuid
 
 from models.base_model import BaseModel
-from models import db_storage
+from models.engine.db_storage import db_storage
 from models.user import User
 from models.place import Place
 from models.state import State
